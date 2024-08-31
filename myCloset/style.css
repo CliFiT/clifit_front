@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+button{
+    border: none;
+    background-color: #fff0;
+    color: #666666;
+}
+#myCloset{
+    margin: auto;
+    max-width: 26.875rem;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    max-width: 26.875rem;
+}
+nav img{
+    color: #666666;
+    margin: 1.5rem 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    align-items: center;
+    overflow-y: scroll;
+}
+h1.title{
+    margin-top: 3.125rem;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #666666;
+}
+
+ul.closet{
+    width: 100%;
+    height: 73.25vh;
+    padding-bottom: 6rem;
+    display:flex;
+    justify-content: start;
+
+}
+ul.closet li{
+    width: 9rem;
+    height: 9rem;
+    margin-left: 2rem;
+    border: solid #dbdbdb;
+    border-radius: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 모달창 */
+div.modal{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0000003f;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#active{
+    display: flex;
+}
+div.close_click_button{
+    background-color: #fff;
+    width: 35.05vh;
+    height: 23.36vh;
+    padding: 0.875rem 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.75rem;
+}
+div.close_click_button div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border: solid 1px #dbdbdb;
+    border-radius: 0.75rem;
+    width: 14.5vh;
+    height: 17vh;
+}
+div.close_click_button h2{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: #666666;
+}
+

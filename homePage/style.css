@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button{
+    background-color: #fff0;
+    border: none;
+}
+#homePage{
+    margin: auto;
+    max-width: 26.875rem;
+    height: 100vh;
+    position: relative;
+    background: #fff;
+}
+header {
+    height: 4.0625rem;
+}
+header h1{
+    padding: 1.25rem;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 2rem;
+    color: #192269;
+}
+main.main{
+    margin: auto;
+    width: 87.18%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* overflow: scroll; */
+}
+
+.weader{
+    font-family: 'Noto Sans KR';
+    height: 6.75rem;
+    background-color: #EEEEEE;
+    border-radius: 1.125rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+}
+.weader img{
+    width: 20.29%;
+    text-shadow: 0 0 1rem 0 #666;
+}
+.weaderFD{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+.condition{
+    display: flex;
+}
+.info{
+    margin: auto 0;
+}
+.tem{
+    margin-left: 0.375rem;
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-weight: 250;
+    font-size: 0.95rem;
+    font-family: 'Pretendard';
+}
+.tem .high{
+    color: red;
+}
+.tem .low{
+    color: blue;
+}
+.story{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3A3939;
+}
+
+main#close{
+    width: 100%;
+    /* height: 60vh; */
+}
+main#close, div.today_codi, div.closeUl{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+nav{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    max-width: 26.875rem;
+}
+nav img{
+    color: #666666;
+    margin: 1.5rem 0;
+}
+
+.closeUl{
+    margin-bottom: 5vh;
+}
+.coat p, .up p, .down p, .shoes p{
+    color: #666;
+    font-family: Pretendard;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.coatUl, .upUl, .downUl, .shoesUl, #codi{
+    margin: 0.5rem 0;
+    display: flex;
+    gap: 1rem;
+    overflow: scroll;
+    height: 8.75rem;
+}
+.coatUl li, .upUl li, .downUl li, .shoesUl li, #codi li{
+    width: 7.5rem;
+    height: 7.5rem;
+    border: solid #dbdbdbdb;
+    border-radius: 1.125rem;
+    object-fit: cover;
+}
+.coatUl li>img, .upUl li>img, .downUl li>img, .shoesUl li>img, #codi li>img{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 1.125rem;
+    border: none;
+    object-fit: cover;
+
+}
+/* .shoesUl{
+    margin-bottom:  9vh;
+} */
+
+.today_codi p, #today_style{
+    font-family: "Noto Sans KR";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.76px;
+}
+.today_codi p span{
+    color: #192269;
+}
+
+/* 클릭시 나오는 div */
+#clear{
+    background-color: #3535352c;
+    position: fixed;
+    top: 0;
+}
+.on{
+    max-width: 26.875rem;
+    width: 100%;
+    height: 100%;
+}
+.click{
+    background-color: #fff;
+    padding-top: 1rem;
+    margin: auto;
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.situation , .style {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.style{
+    margin-bottom: 2rem;
+}
+
+.situation ul, .style ul{
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.425rem;
+
+}
+.situation p, .style p{
+    padding: 0.5rem;
+}
+.situation hr, .style hr{
+    width: 96%;
+}
+.click li{
+    padding: 0.75rem 0.875rem;
+    border: 1px solid #DBDBDB;
+    border-radius: 1.25rem;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    order: 3;
+    flex-grow: 0;
+}
+#clear button[type="submit"]{
+    padding: 0.75rem 7.25rem ;
+    text-align: center;
+    color: #fff;
+    background-color: #0a00491a;
+    border-radius: 10rem;
+    margin-bottom: 3.75rem;
+}
+/* .situation li:hover, .style li:hover{
+    background-color: #0A0049;
+}
+.situation li>button:hover, .style li>button:hover{
+    color: #DBDBDB;
+} */
+
+.situation li.active, .style li.active{
+    background-color: #0A0049;
+}
+.situation li.active>button, .style li.active>button{
+    color: #DBDBDB;
+}
+#clear button[type=submit].active{
+    background-color: #0A0049;
+}
+
+p#error{
+    margin-bottom: 0.5rem;
+    font-size: small;
+}
+

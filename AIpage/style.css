@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+#main_AIpage{
+    margin: auto;
+    max-width: 26.875rem;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    height: 7.01vh;
+    display: flex;
+    align-items: center;
+}
+nav button{
+    background-color: #00000000;
+    border: none;
+    margin-left: 1.25rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.codi{
+    overflow-x: scroll;
+    padding: 0 5.625rem;
+}
+.codi ul{
+    display: flex;
+    width: 51rem;
+    gap: 2.5rem;
+}
+.codi li{
+    width: 12.75rem;
+    height: 12.75rem;
+}
+.codi li:last-child{
+    padding-right: 5.625rem;
+}
+.codi img{
+    width: 12.75rem;
+    height: 12.75rem;
+    border-radius: 1.125rem;
+    border: solid #F2F2F2;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 59.11vh;
+    overflow: scroll;
+}
+#codi, #reason{
+    height: 32.94vh;
+    width: 32.94vh;
+    background-color: #F2F2F2;
+    border-radius: 1.125rem;
+    margin-top: 0.625rem;
+}
+.info span{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    
+    color: #666666;
+}
+
+hr{
+    width: 89.74%;
+    margin: auto;
+}
+
+
+
