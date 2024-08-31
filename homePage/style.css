@@ -218,7 +218,7 @@ nav img{
     order: 3;
     flex-grow: 0;
 }
-#clear button[type="submit"]{
+#clear #submit{
     padding: 0.75rem 7.25rem ;
     text-align: center;
     color: #fff;
@@ -239,7 +239,7 @@ nav img{
 .situation li.active>button, .style li.active>button{
     color: #DBDBDB;
 }
-#clear button[type=submit].active{
+#clear #submit.active{
     background-color: #0A0049;
 }
 

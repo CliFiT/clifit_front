@@ -102,7 +102,7 @@ const $clickImg = document.querySelectorAll(".coatUl li img, .upUl li img, .down
 const $clickPage = document.querySelector(".click");
 const $situaBtn = document.querySelectorAll(".situation li");
 const $styleBtn = document.querySelectorAll(".style li");
-const $submitBtn = document.querySelector('button[type=submit]');
+const $submitBtn = document.getElementById('submit');
 const $clear = document.getElementById("clear");
 const errorM = document.getElementById("error");
 
@@ -146,6 +146,12 @@ $clickLi.forEach((clickItem) => {
                     errorM.textContent = "각각 하나씩 선택 가능합니다";
                 }
             });
+        });
+
+        $submitBtn.addEventListener("click", (s) => {
+            if(style && situation){
+                window.location.href = '../AIpage/index.html'; 
+            };
         });
 
         e.stopPropagation(); // 이벤트 버블링 중지
