@@ -40,7 +40,7 @@ document.getElementById("codi").innerHTML = codiHtml
 //close 더미데이터
 const close = [
     {
-        fillDown  : "외투",
+        fillDown  : "아우터",
         class: "coat",
         img_1 : './asset/close/coat/coat_1.jpeg',
         img_2 : './asset/close/coat/coat_2.jpeg',
