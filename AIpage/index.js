@@ -58,3 +58,9 @@ const infoHtml =  info.map(infoItem => {
     `;
 });
 document.getElementsByClassName("info")[0].innerHTML = infoHtml.join("");
+
+const $move_back = document.getElementById("back");
+
+$move_back.addEventListener("click", (i) => {
+    window.location.href = '../homePage/index.html';
+});
