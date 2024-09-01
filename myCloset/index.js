@@ -12,6 +12,11 @@ const $modalButton = document.getElementsByClassName("close_click_button")[0];
 document.querySelector('body').addEventListener('click', (e) => {
     if($addClose.contains(e.target)){
         $modal.id = 'active'; 
+
+        const $photo = document.getElementById("get_photo");
+        $photo.addEventListener("click", (p) => {
+            window.location.href = './close_info.html';
+        })
     }
     else if (!$modalButton.contains(e.target)) {
         $modal.removeAttribute('id');
