@@ -1,11 +1,99 @@
-* {
-    margin: 0 auto;
+*{
+    margin: 0;
     padding: 0;
 }
+main.main {
+    margin: auto;
+    max-width: 26.875rem;
+    height: 100vh;
+    background: #fff;
+    overflow: hidden;
+}
 
-#container {
+main.move_page{
+    width: 135rem;
+    float: left;
+    transform: translateX(-27rem);
+}
+#q1 {
+    height: 100vh;
+    max-width: 26.875rem;
     width: 100%;
-    height: 100%;
-    position: relative;
-    background: white;
+}
+#q2 {
+    height: 100vh;
+    max-width: 26.875rem;
+    width: 100%;
+}
+#q3 {
+
+}
+#q4 {
+
+}
+
+/* 상단바 */
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 11px;
+}
+.bar1 {
+    width: 46px;
+    height: 6px;
+    background: #DBDBDB;
+    border-radius: 10px
+}
+.bar2 {
+    width: 46px;
+    height: 6px;
+    background: #DBDBDB;
+    border-radius: 10px
+}
+.bar3 {
+    width: 46px;
+    height: 6px;
+    background: #DBDBDB;
+    border-radius: 10px
+}
+
+/* 질문 시작 텍스트 */
+.txt {
+    text-align:center;
+}
+.que-txt-navy {
+    color: #192269;
+    font-size: 24px;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.que-txt-gray {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.que-txt-brack {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+/* 확인 버튼 */
+.submit-button {
+    padding: 12px 115px;
+    border: none;
+    border-radius: 1000px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Pretendard;
+    letter-spacing: 1.28px;
+    word-wrap: break-word;
+    background: #0A0049;
+    display: flex;
+    margin: 0 auto;
+
 }
