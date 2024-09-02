@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button{
+    background-color: #fff0;
+    border: none;
+}
+
+main#login{
+    margin: auto;
+    max-width: 26.875rem;
+    height: 100vh;
+    position: relative;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1#title{
+    padding-top: 6rem;
+    color: var(--blue, #192269);
+    text-shadow: 2px 4px 0.23rem rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.25px;
+}
+div.input{
+    width: 80%;
+    max-width: 18rem;
+    margin-top: 3.2rem;
+    display: flex;
+    flex-direction: column;
+}
+div.input input{
+    padding: 1.25rem ;
+    border: none;
+    border-bottom:solid 1px #767676;
+}
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    border: 1px solid #ccc; /* 기본 테두리 설정 */
+    outline: none; /* outline 제거 */
+}
+
+
+button#btn{
+    margin-top: 3.5rem;
+    padding: 1.2rem 0;
+    width: 80%;
+    max-width: 18rem;
+    color: #fff;
+    background-color: #192269;
+    border-radius: 1.2rem;
+}
