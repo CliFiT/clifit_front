@@ -80,6 +80,10 @@ main.main img{
     font-family: "Noto Sans KR";
     font-weight: 500;
 }
+.style button.active, .season button.active, .kind button.active{
+    background-color: #0A0049;
+    color: #DBDBDB;
+}
 .style, .season , .kind{
     padding: 0.5rem;
     display: flex;
