@@ -2,36 +2,31 @@
     margin: 0;
     padding: 0;
 }
-main.main {
+main.main{
     margin: auto;
     max-width: 26.875rem;
     height: 100vh;
     background: #fff;
-    overflow: hidden;
+    position: relative;
 }
 
-main.move_page{
-    width: 135rem;
+/* main.move_page .move_page_ul{
+
+    width: 107.5rem;
     float: left;
-    transform: translateX(-27rem);
+} */
+
+.page{
+    display: none;
 }
-#q1 {
+li#active{
+    display: block;
     height: 100vh;
     max-width: 26.875rem;
     width: 100%;
+    position: absolute;
+    top: 0;
 }
-#q2 {
-    height: 100vh;
-    max-width: 26.875rem;
-    width: 100%;
-}
-#q3 {
-
-}
-#q4 {
-
-}
-
 /* 상단바 */
 .progress-bar {
     display: flex;
@@ -40,19 +35,7 @@ main.move_page{
     align-items: center;
     gap: 11px;
 }
-.bar1 {
-    width: 46px;
-    height: 6px;
-    background: #DBDBDB;
-    border-radius: 10px
-}
-.bar2 {
-    width: 46px;
-    height: 6px;
-    background: #DBDBDB;
-    border-radius: 10px
-}
-.bar3 {
+#bar1 ,#bar2 ,#bar3 {
     width: 46px;
     height: 6px;
     background: #DBDBDB;
