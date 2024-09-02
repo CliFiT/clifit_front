@@ -48,10 +48,13 @@ nav img{
 
 /* - */
 main.main{
+    margin: auto;
+    max-width: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
+    padding-bottom: 3rem;
 }
 main.main img{
     width: 20rem;
@@ -72,10 +75,10 @@ main.main img{
     border-radius: 1.25rem;
     white-space: nowrap;
     text-align: center;
-    font-size: 0.875rem;
-    box-sizing: border-box;
-    order: 3;
-    flex-grow: 0;
+    font-size: 0.8rem;
+    color: #666;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
 }
 .style, .season , .kind{
     padding: 0.5rem;
@@ -83,4 +86,40 @@ main.main img{
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.425rem;
+}
+
+#slider{
+    margin: auto;
+    width: 75%;
+}
+#slider h3{
+    margin-bottom: 1rem;
+    color: #666;
+    font-family: "Noto Sans KR";
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+span#fd{
+    /* font-size: 0.9rem; */
+    font-weight: 600;
+}
+
+#slider input{
+    -webkit-appearance: none; 
+    width: 100%; /* 슬라이더 길이 */
+    height: 0.8rem; /* 슬라이더 두께 */
+    border-radius: 0.5rem; /* 슬라이더 모서리를 약간 둥글게 */
+    background: #0a00497d; /* 슬라이더 색상 */
+}
+/* 슬라이더 핸들(클릭해서 드래그하는 부분) 커스텀 
+(Chrome, Opera, Safari, Edge 브라우저를 위해서는 -webkit-을,
+Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
+#slider input::-webkit-slider-thumb {
+    -webkit-appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
+    appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
+    width: 1rem; /* 슬라이더 핸들 길이 */
+    height: 1rem; /* 슬라이더 핸들 높이 */
+    border-radius: 50%; /* 핸들 모양을 원모양으로 만들기 위함 */
+    background: #0A0049; /* 슬라이더 핸들 색상 */
+    cursor: pointer; /* 슬라이더 핸들에 마우스를 갖다대면 포인터로 변경 */
 }
