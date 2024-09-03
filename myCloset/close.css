@@ -50,11 +50,13 @@ nav img{
 main.main{
     margin: auto;
     max-width: 25rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
     padding-bottom: 3rem;
+    overflow: scroll;
 }
 main.main img{
     width: 20rem;
@@ -126,4 +128,13 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
     border-radius: 50%; /* 핸들 모양을 원모양으로 만들기 위함 */
     background: #0A0049; /* 슬라이더 핸들 색상 */
     cursor: pointer; /* 슬라이더 핸들에 마우스를 갖다대면 포인터로 변경 */
+}
+button#btn{
+    margin-bottom: 2rem;
+    padding: 1.2rem 0;
+    width: 80%;
+    max-width: 18rem;
+    color: #fff;
+    background-color: #0a0049;
+    border-radius: 1.2rem;
 }

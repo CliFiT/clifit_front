@@ -55,3 +55,8 @@ $styleBtn.forEach((clickBtn) => {
     });
 });
 
+document.getElementById('btn').addEventListener('click', (event) =>{
+    event.preventDefault(); // 폼의 기본 동작(페이지 새로고침)을 막음
+
+    window.location.href = '../myCloset/index.html';
+});
