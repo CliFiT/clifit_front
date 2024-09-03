@@ -23,10 +23,10 @@ document.querySelector(".weader").innerHTML = weaderHtml;
 
 //오늘의 옷추천
 const todayCodi = {
-    coat : './asset/close/coat/coat_1.jpeg',
-    shirt : './asset/close/shirt/shirt_3.jpeg',
-    pant : './asset/close/pants/pants_1.jpeg',
-    shoes : './asset/close/shoes/shoes_3.jpeg',
+    coat : '../close/coat/coat_1.jpeg',
+    shirt : '../close/shirt/shirt_7.webp',
+    pant : '../close/pants/pants_1.jpeg',
+    shoes : '../close/shoes/shoes_3.jpeg',
 };
 
 const codiHtml = `
@@ -42,38 +42,38 @@ const close = [
     {
         fillDown  : "아우터",
         class: "coat",
-        img_1 : './asset/close/coat/coat_1.jpeg',
-        img_2 : './asset/close/coat/coat_2.jpeg',
-        img_3 : './asset/close/coat/coat_3.jpeg',
-        img_4 : './asset/close/coat/coat_4.jpeg',
-        img_5 : './asset/close/coat.svg',
+        img_1 : '../close/coat/coat_1.jpeg',
+        img_2 : '../close/coat/coat_2.jpeg',
+        img_3 : '../close/coat/coat_3.jpeg',
+        img_4 : '../close/coat/coat_4.jpeg',
+        img_5 : '../close/coat/coat_5.jpeg',
     },
     {
         fillDown  : "상의",
         class: "up",
-        img_1 : './asset/close/shirt/shirt_1.jpeg',
-        img_2 : './asset/close/shirt/shirt_2.webp',
-        img_3 : './asset/close/shirt/shirt_3.jpeg',
-        img_4 : './asset/close/shirt/shirt_4.png',
-        img_5 : './asset/close/shirt.svg',
+        img_1 : '../close/shirt/shirt_5.jpeg',
+        img_2 : '../close/shirt/shirt_4.png',
+        img_3 : '../close/shirt/shirt_3.jpeg',
+        img_4 : '../close/shirt/shirt_2.webp',
+        img_5 : '../close/shirt/shirt_1.jpeg',
     },
     {
         fillDown  : "하의",
         class: "down",
-        img_1 : './asset/close/pants/pants_1.jpeg',
-        img_2 : './asset/close/pants/pants_2.jpeg',
-        img_3 : './asset/close/pants/pants_3.jpeg',
-        img_4 : './asset/close/pants/pants_4.jpeg',
-        img_5 : './asset/close/pants.svg',
+        img_1 : '../close/pants/pants_1.jpeg',
+        img_2 : '../close/pants/pants_2.jpeg',
+        img_3 : '../close/pants/pants_3.jpeg',
+        img_4 : '../close/pants/pants_4.jpeg',
+        img_5 : '../close/pants/pants_5.jpeg',
     },
     {
         fillDown  : "신발",
         class: "shoes",
-        img_1 : './asset/close/shoes/shoes_1.jpeg',
-        img_2 : './asset/close/shoes/shoes_2.jpeg',
-        img_3 : './asset/close/shoes/shoes_4.jpeg',
-        img_4 : './asset/close/shoes/shoes_3.jpeg',
-        img_5 : './asset/close/shoes.svg',
+        img_1 : '../close/shoes/shoes_1.jpeg',
+        img_2 : '../close/shoes/shoes_2.jpeg',
+        img_3 : '../close/shoes/shoes_4.jpeg',
+        img_4 : '../close/shoes/shoes_3.jpeg',
+        img_5 : '../close/shoes/shoes_5.jpeg',
     }
 ];
 const closeHtml = close.map(closeItem => {
