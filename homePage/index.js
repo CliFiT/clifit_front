@@ -81,7 +81,7 @@ const closeHtml = close.map(closeItem => {
         <div class="${closeItem.class}">
             <p>${closeItem.fillDown}</p>
             <div class="${closeItem.class}Ul">
-                <li><img src="${closeItem.img_1}" alt="" width></li>
+                <li><img src="${closeItem.img_1}" alt="" ></li>
                 <li><img src="${closeItem.img_2}" alt=""></li>
                 <li><img src="${closeItem.img_3}" alt=""></li>
                 <li><img src="${closeItem.img_4}" alt=""></li>

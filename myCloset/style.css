@@ -51,24 +51,38 @@ h1.title{
     color: #666666;
 }
 
-ul.closet{
-    width: 100%;
+ul#closet{
+
+    /* width: 100%; */
     height: 73.25vh;
     padding-bottom: 6rem;
-    display:flex;
-    justify-content: start;
-
+    display: flex;
+    justify-content: flex-start;
+	flex-wrap: wrap;
+    overflow: scroll;
 }
-ul.closet li{
+ul#closet li {
+    margin: 0 0 3rem 3rem;
     width: 9rem;
     height: 9rem;
-    margin-left: 2rem;
     border: solid #dbdbdb;
     border-radius: 1.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+ul#closet li button{
+    padding: 0 3rem;
+}
+
+ul#closet li:not(#add_close) img {
+    width: 9rem;
+    height: 9rem;
+    border: solid #dbdbdb;
+    border-radius: 1.125rem;
+}
+
+
 
 /* 모달창 */
 div.modal{
