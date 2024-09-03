@@ -15,8 +15,6 @@ const codiHtml = `
     </ul> 
 `;
 
-document.querySelector(".codi").innerHTML = codiHtml;
-
 const info = [
     {
         class :"info_codi",
@@ -41,7 +39,17 @@ const infoHtml =  info.map(infoItem => {
             </div>
     `;
 });
-document.getElementsByClassName("info")[0].innerHTML = infoHtml.join("");
+
+window.onload = function() {
+    // 3초 후에 실행될 타이머 설정
+    setTimeout(function() {
+        // 애니메이션을 숨김
+        document.querySelector('.typing-animation').style.display = 'none';
+
+        document.querySelector(".codi").innerHTML = codiHtml;
+        document.getElementsByClassName("info")[0].innerHTML = infoHtml.join("");
+    }, 3000);
+};
 
 const $move_back = document.getElementById("back");
 
