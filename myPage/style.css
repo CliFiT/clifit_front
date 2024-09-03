@@ -56,10 +56,11 @@ main{
 }
 #profile img{
     margin-top: 1.25rem;
-    width: 14.95vh;
-    height: 14.95vh;
+    width: 16vh;
+    height: 16vh;
     background-color: #dbdbdb;
     border-radius: 50rem;
+    border: solid 1.5px #dbdbdb;
 }
 #profile p{
     font-family: "Noto Sans KR";
