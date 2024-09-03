@@ -23,10 +23,10 @@ document.querySelector(".weader").innerHTML = weaderHtml;
 
 //오늘의 옷추천
 const todayCodi = {
-    coat : '../close/coat/coat_1.jpeg',
+    coat : '../close/coat/coat_3.jpeg',
     shirt : '../close/shirt/shirt_7.webp',
     pant : '../close/pants/pants_1.jpeg',
-    shoes : '../close/shoes/shoes_3.jpeg',
+    shoes : '../close/shoes/shoes_1.jpeg',
 };
 
 const codiHtml = `
@@ -55,7 +55,7 @@ const close = [
         img_2 : '../close/shirt/shirt_4.png',
         img_3 : '../close/shirt/shirt_3.jpeg',
         img_4 : '../close/shirt/shirt_2.webp',
-        img_5 : '../close/shirt/shirt_1.jpeg',
+        img_5 : '../close/shirt/shirt_7.webp',
     },
     {
         fillDown  : "하의",

@@ -1,17 +1,10 @@
 // 더미데이터 만들깅
 const codi = {
-    coat : "./asset/codi/coat.jpeg",
-    shirt : "./asset/codi/shirt.jpeg",
-    pants : "./asset/codi/pants.jpeg",
+    coat : "../close/coat/coat_1.jpeg",
+    shirt : "../close/shirt/shirt_7.webp",
+    pants : '../close/pants/pants_1.jpeg',
     shoes : "./asset/codi/shoes.jpeg"
 }
-
-/* <ul>
-<li><img src="" alt="" /></li>
-<li><img src="" alt="" /></li>
-<li><img src="" alt="" /></li>
-<li><img src="" alt="" /></li>
-</ul> */
 
 const codiHtml = `
     <ul>
@@ -28,26 +21,17 @@ const info = [
     {
         class :"info_codi",
         id : "codi",
-        name : "코디설명",
-        info : ""
+        name : "",
+        info : "가을 날씨가 29도로 약간 더운 날이라면, 시원하면서도 깔끔한 흰색 반팔 티셔츠를 선택해보세요. 이 티셔츠는 가볍게 입을 수 있으면서도 밝은 컬러가 가을 햇살과 잘 어울려 전체적으로 산뜻한 느낌을 줍니다. 여기에 세련된 검은색 슬랙스를 매치하면, 심플하면서도 고급스러운 분위기를 연출할 수 있습니다.<br> <br>만약 저녁이 되면서 날씨가 쌀쌀해지기 시작한다면, 부드럽고 따뜻한 회색 가디건을 걸쳐주는 것을 추천드립니다. 회색은 중립적인 색상으로, 흰색과 검은색 조합과 잘 어울리며, 가디건의 부드러운 질감이 전체적인 스타일에 따뜻한 느낌을 더해줍니다. 마지막으로 심플하면서도 세련된 검은색 스니커즈를 신어주면, 전체적으로 조화롭고 완성도 높은 가을 코디가 완성될 것입니다. 이 코디는 어디에서든 편안하면서도 스타일리시한 분위기를 연출할 수 있어, 일상에서부터 가벼운 외출까지 다양하게 활용할 수 있을 것입니다."
 
     },
-    {
-        class :"reason",
-        id : "reason",
-        name : "추천이유",
-        info : ""
-    }
+    // {
+    //     class :"reason",
+    //     id : "reason",
+    //     name : "",
+    //     info : ""
+    // }
 ]
-
-/* <div class="info_codi">
-<h1>코디 설명</h1>
-<div id="codi"></div>
-</div>
-<div class="reason">
-<h1>추천 이유</h1>
-<div id="reason"></div>
-</div> */
 
 const infoHtml =  info.map(infoItem => {
     return `

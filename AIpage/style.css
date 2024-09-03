@@ -62,7 +62,8 @@ main{
     overflow: scroll;
 }
 #codi, #reason{
-    height: 32.94vh;
+    padding: 1rem;
+    height: auto;
     width: 32.94vh;
     background-color: #F2F2F2;
     border-radius: 1.125rem;
@@ -81,6 +82,12 @@ hr{
     width: 89.74%;
     margin: auto;
 }
-
+div#codi{
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 
